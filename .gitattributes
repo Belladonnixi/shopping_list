@@ -8,3 +8,13 @@
 *.kt linguist-detectable=false
 *.java linguist-detectable=false
 *.sh linguist-detectable=false
+
+# Exclude CMake files
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+
+# Exclude specific directories (linux, windows)
+linux/* linguist-vendored
+windows/* linguist-vendored
+macos/* linguist-vendored
+web/* linguist-vendored
