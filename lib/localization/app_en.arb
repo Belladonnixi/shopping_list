@@ -1,0 +1,8 @@
+{
+    "appTitle": "Flutter Groceries",
+    "@appTitle": {
+        "description": "The title of the application"
+    },
+    "error": "Error",
+    "groceryListTitle": "Your Groceries"
+}
