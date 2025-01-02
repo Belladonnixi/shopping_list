@@ -5,7 +5,11 @@
         "description": "The title of the application"
     },
     "error": "Error",
-    "@error": {},
+    "@error": {
+        "description": "Displayed when an error occurs"
+    },
     "groceryListTitle": "Your Groceries",
-    "@groceryListTitle": {}
+    "@groceryListTitle": {
+        "description": "Title of the grocery list screen"
+    }
 }
