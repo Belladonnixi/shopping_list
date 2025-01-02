@@ -1,7 +1,7 @@
-import 'package:shopping_list/data/database_repository.dart';
-import 'package:shopping_list/models/category.dart';
-import 'package:shopping_list/models/grocery_item.dart';
-import 'package:shopping_list/data/categories.dart';
+import 'package:shopping_list/data/repositories/database_repository.dart';
+import 'package:shopping_list/data/models/category.dart';
+import 'package:shopping_list/data/models/grocery_item.dart';
+import 'package:shopping_list/data/data_source/categories.dart';
 
 class MockDatabaseRepository implements DatabaseRepository {
   MockDatabaseRepository._internal();

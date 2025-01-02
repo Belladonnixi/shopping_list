@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:shopping_list/provider/groceries_provider.dart';
-import 'package:shopping_list/widgets/grocery_list_tile.dart';
+import 'package:shopping_list/features/groceries/providers/groceries_provider.dart';
+import 'package:shopping_list/features/groceries/presentation/widgets/grocery_list_tile.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 /// A widget that displays a list of grocery items.

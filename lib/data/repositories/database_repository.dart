@@ -1,4 +1,4 @@
-import 'package:shopping_list/models/grocery_item.dart';
+import 'package:shopping_list/data/models/grocery_item.dart';
 
 abstract class DatabaseRepository {
   Future<void> addGroceryItem(GroceryItem item);

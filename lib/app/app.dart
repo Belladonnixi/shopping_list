@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:shopping_list/utils/color_themes.dart';
-import 'package:shopping_list/widgets/grocery_list.dart';
+import 'package:shopping_list/core/styles/color_themes.dart';
+import 'package:shopping_list/features/groceries/presentation/screens/grocery_list.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class ShoppingListApp extends StatelessWidget {
+  const ShoppingListApp({super.key});
 
   @override
   Widget build(BuildContext context) {

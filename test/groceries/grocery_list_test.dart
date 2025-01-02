@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shopping_list/provider/groceries_provider.dart';
-import 'package:shopping_list/widgets/grocery_list.dart';
-import 'package:shopping_list/models/grocery_item.dart';
-import 'package:shopping_list/models/category.dart';
+import 'package:shopping_list/features/groceries/providers/groceries_provider.dart';
+import 'package:shopping_list/features/groceries/presentation/screens/grocery_list.dart';
+import 'package:shopping_list/data/models/grocery_item.dart';
+import 'package:shopping_list/data/models/category.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
