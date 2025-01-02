@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_list/settings/color_themes.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shopping_list/utils/color_themes.dart';
+import 'package:shopping_list/widgets/grocery_list.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -13,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Groceries',
       theme: theme,
-      home: Center(),
+      home: const GroceryList(),
     );
   }
 }
