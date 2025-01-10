@@ -9,7 +9,9 @@ class MockDatabaseRepository implements DatabaseRepository {
   static final MockDatabaseRepository _instance =
       MockDatabaseRepository._internal();
 
-  factory MockDatabaseRepository() {
+  static Future<MockDatabaseRepository> create() async {
+    // Simuliert eine Verzögerung beim Erstellen des Repositorys
+    await Future.delayed(const Duration(milliseconds: 500));
     return _instance;
   }
 

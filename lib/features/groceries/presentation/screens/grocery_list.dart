@@ -10,7 +10,7 @@ class GroceryList extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final groceryItems = ref.watch(groceriesProvider);
+    final groceryItems = ref.watch(fetchGroceriesProvider);
 
     return Scaffold(
       appBar: AppBar(
